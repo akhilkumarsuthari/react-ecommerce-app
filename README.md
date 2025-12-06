@@ -1,8 +1,8 @@
 # 🛒 React E-Commerce Application (NxtTrendz Clone)
 
-A full-featured e-commerce frontend built using **React**, demonstrating real-world concepts such as authentication, product listing, filtering, protected routes, product details, cart management, and responsive UI design.
+A fully responsive e-commerce frontend built using **React**, demonstrating production-level concepts such as authentication, protected routes, product listing with filters, dynamic product details, API integration, and clean UI/UX patterns.
 
-This project showcases production-style frontend architecture with reusable components, API integration, routing, and state management techniques.
+This project is part of my React portfolio, designed to showcase real-world component structure and frontend architecture.
 
 ---
 
@@ -11,58 +11,58 @@ This project showcases production-style frontend architecture with reusable comp
 
 ---
 
-## ✨ Features Overview
+## ✨ Features
 
-### 🔐 **Authentication**
+### 🔐 **User Authentication**
 - Login page (`LoginForm`)
-- JWT token handling
-- `ProtectedRoute` implementation
-- Redirect for authenticated users
+- JWT token handling using cookies/localStorage
+- Protected routes (`ProtectedRoute`)
+- Automatic redirection based on auth status
 
 ---
 
-### 🛍️ **Products Module**
-- Product listing (`Products`)
-- Sorting & filtering (`FiltersGroup`)
-- Category filters
-- Rating filters
-- Search functionality
-- Pagination & limit
-- Products header (`ProductsHeader`)
-- Product card component (`ProductCard`)
-- Prime-exclusive deals (`PrimeDealsSection`)
+### 🏠 **Home Page**
+- Banner section  
+- Navigation to products  
+- Responsive layout  
+
+---
+
+### 🛍️ **Products Listing (Main Feature)**
+Handled under the `Products` component:
+
+- Display all products  
+- Search products  
+- Sorting options  
+- Category filters  
+- Rating filters  
+- Price range filters  
+- Combined filtering logic  
+- API loading & error handling  
+- Reusable `ProductCard` component  
+- Header section for filters (`ProductsHeader`)  
+- Dedicated UI for no-results state  
+
+---
+
+### ⭐ **Prime Deals Section**
+The `PrimeDealsSection` component displays exclusive items for prime users.
 
 ---
 
 ### 🔎 **Product Details Page**
-Handled by `ProductItemDetails` with:
-- Large product preview image
-- Title, brand, rating & reviews
-- Price
-- Product description
-- Quantity increment/decrement
-- Add to Cart button
-- Similar products (`SimilarProductItem`)
-- API success / failure / loading views
+The `ProductItemDetails` component includes:
+
+- Large product image  
+- Title, brand, price, rating, and reviews  
+- Detailed description  
+- Similar products section using `SimilarProductItem`  
+- API success, failure, and loading UI states  
 
 ---
 
-### 🛒 **Cart Management**
-Component: `Cart`
-
-- Add products
-- Remove products
-- Update quantity
-- Total price calculation
-- Cart persistence (UI-level)
-- Empty cart and success states
-
----
-
-### 🏠 **Other Pages**
-- Home page (`Home`)
-- Not Found page (`NotFound`)
-- Header with nav links (`Header`)
+### 🚫 **Not Found Page**
+A custom 404 page to handle invalid routes.
 
 ---
 
@@ -73,7 +73,7 @@ Component: `Cart`
 - **JavaScript (ES6+)**
 - **CSS (Responsive UI)**
 - **Fetch API**
-- **LocalStorage** for auth persistence
+- **JWT Authentication**
 
 ---
 
@@ -83,7 +83,6 @@ Component: `Cart`
 src/
 ├── components/
 │   ├── AllProductsSection/
-│   ├── Cart/
 │   ├── FiltersGroup/
 │   ├── Header/
 │   ├── Home/
