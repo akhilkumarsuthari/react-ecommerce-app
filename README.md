@@ -100,3 +100,31 @@ src/
 ├── App.css
 ├── index.js
 └── setupTests.js
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](./images/login.png)
+
+### 🏠 Home Page
+![Home](./images/home.png)
+
+### 🛍️ Products Page
+![Products](./images/products_1.png)
+![Products](./images/products_2.png)
+
+### 🎚️ Filters Section
+![Filters](./images/apply_filter_1.png)
+![Filters](./images/filter_result.png)
+
+### 🔎 Specific Product Details Page
+![Specific Product Details](./images/specific_product_details_1.png)
+
+###  Similar Products Section
+![Similar Products](./images/similar_products.png)
+
+### Not Found Page
+![Not Found](./images/notFound.png)
+
+### Invalid Credentials
+![Invalid Credentials](./images/invalid_credentials.png)
