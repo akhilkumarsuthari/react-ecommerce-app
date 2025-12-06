@@ -96,6 +96,7 @@ src/
 ├── index.js
 └── setupTests.js
 
+```
 ## 📸 Screenshots
 
 ### 🔐 Login Page
