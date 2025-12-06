@@ -116,11 +116,11 @@ src/
 ### 🔎 Specific Product Details Page
 ![Specific Product Details](./images/specific_product_details_1.png)
 
-###  Similar Products Section
+### 🧩 Similar Products Section
 ![Similar Products](./images/similar_products.png)
 
-### Not Found Page
+### 🚫 Not Found Page
 ![Not Found](./images/notFound.png)
 
-### Invalid Credentials
+### ❌ Invalid Credentials
 ![Invalid Credentials](./images/invalid_credentials.png)
