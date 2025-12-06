@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-item {
+  margin: 9px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.similar-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+.similar-heading {
+  font-size: 15px;
+  font-family: Roboto;
+  line-height: 0.5;
+}
+.similar-para {
+  line-height: 1;
+  font-size: 12px;
+}
+.similar-price-and-rating-conatiner {
+  display: flex;
+  align-items: center;
+}
