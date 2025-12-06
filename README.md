@@ -61,11 +61,6 @@ The `ProductItemDetails` component includes:
 
 ---
 
-### 🚫 **Not Found Page**
-A custom 404 page to handle invalid routes.
-
----
-
 ## 🧰 Tech Stack
 
 - **React**
